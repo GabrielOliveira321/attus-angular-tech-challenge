@@ -1,0 +1,24 @@
+{
+    "scripts": {
+        "filter": "tsx src/typeScriptQualidadeDeCodigo/FilterPages.ts",
+        "refatoracao": "tsx src/typeScriptQualidadeDeCodigo/Refatoração.ts",
+        "push": "tsx src/FundamentosReatividade/ChangeDetectionOnPush.ts",
+        "refatoracao2": "tsx src/FundamentosReatividade/Refatore2.ts",
+        "debounce": "tsx src/FundamentosReatividade/BuscaComDebounce.ts",
+        "angularSignals": "tsx src/GerenciamentoDeEstados/AngularSignals.ts",
+        "ngrxTodo": "tsx src/GerenciamentoDeEstados/NgrxTodo.ts"
+    },
+    "dependencies": {
+        "@angular/common": "^21.2.13",
+        "@angular/compiler": "^21.2.13",
+        "@angular/core": "^21.2.13",
+        "@angular/forms": "^21.2.13",
+        "@ngrx/effects": "^21.1.0",
+        "@ngrx/store": "^21.1.0",
+        "rxjs": "^7.8.2"
+    },
+    "devDependencies": {
+        "ts-node": "^10.9.2",
+        "tsx": "^4.22.0"
+    }
+}
